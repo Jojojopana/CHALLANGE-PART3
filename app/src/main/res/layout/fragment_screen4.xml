@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_screen4"
+    tools:context=".Screen4">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/usia"
+        android:inputType="number"
+        android:hint="Masukkan Usia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/alamat"
+        android:layout_marginTop="50dp"
+        android:hint="Masukkan Alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/pekerjaan"
+        android:layout_marginTop="100dp"
+        android:hint="Masukkan Pekerjaan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/BackToScreen3"
+        android:layout_marginTop="200dp"
+        android:text="Back To Screen 3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/namascreen4"
+        android:textSize="1dp"
+        android:text="nama"
+        android:layout_marginTop="5000dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</FrameLayout>
